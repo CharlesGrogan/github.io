@@ -73,11 +73,6 @@ section {
   color: #fff;
 }
 
-.fa-linkedin,
-.fa-github {
-  color: #0077b5;
-}
-
 .skills {
   color: #fff;
 }
@@ -118,7 +113,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand {
-  font-weight: 500;
+  /* font-weight: 500; */
   text-transform: uppercase;
   color: #007541;
   font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
@@ -246,6 +241,7 @@ header.masthead p {
   max-width: 400px;
   color: #007541;
   padding-bottom: 10px;
+  padding: 5px;
 }
 
 .portfolio-box {
@@ -256,8 +252,11 @@ header.masthead p {
 }
 
 #contact {
-  background-image: url("../img/bottomHead.jpg");
-  height: 400px;
+  background-image: url("../img/homepageNL.jpg");
+  background-repeat: no-repeat;
+  border-top: black solid 20px;
+  /* background-position: center center; */
+  background-size: cover;
 }
 
 .portfolio-box .portfolio-box-caption {
@@ -319,9 +318,11 @@ header.masthead p {
   outline: none;
 }
 
+.fa-linkedin,
+.fa-github,
 .fa-phone,
 .fa-envelope {
-  color: #007541;
+  color: #fff;
 }
 
 @media (min-width: 768px) {
@@ -353,6 +354,8 @@ header.masthead p {
 
 .btn-xl {
   padding: 1rem 2rem;
+  background-color: #007541;
+  color: white;
 }
 
 .btn-primary {
