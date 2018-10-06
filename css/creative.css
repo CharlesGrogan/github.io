@@ -77,7 +77,7 @@ section {
   color: #fff;
 }
 
-::-moz-selection {
+/* ::-moz-selection {
   color: #fff;
   background: #212529;
   text-shadow: none;
@@ -102,7 +102,7 @@ img::selection {
 img::-moz-selection {
   color: #fff;
   background: transparent;
-}
+} */
 
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
@@ -254,8 +254,8 @@ header.masthead p {
 #contact {
   background-image: url("../img/homepageNL.jpg");
   background-repeat: no-repeat;
-  border-top: black solid 20px;
-  /* background-position: center center; */
+  /* border-top: rgba(0, 0, 0, 0.952) solid 10px; */
+  background-position: center center;
   background-size: cover;
 }
 
