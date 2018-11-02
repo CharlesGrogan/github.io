@@ -40,6 +40,10 @@ a:hover {
   color: #007541;
 }
 
+.contact:hover {
+  color: black;
+}
+
 h1,
 h2,
 h3,
@@ -253,7 +257,7 @@ header.masthead p {
 }
 
 #contact {
-  background-image: url("../img/homepageNL.jpg");
+  background-image: url("../img/homepage.jpeg");
   background-repeat: no-repeat;
   /* border-top: rgba(0, 0, 0, 0.952) solid 10px; */
   background-position: center center;
@@ -324,6 +328,7 @@ header.masthead p {
 .fa-phone,
 .fa-envelope {
   color: #fff;
+  text-shadow: 2px 2px black;
 }
 
 @media (min-width: 768px) {
@@ -363,6 +368,14 @@ header.masthead p {
   background-color: #007541;
   border-color: #007541;
   border: white solid 1px;
+}
+
+i {
+  text-shadow: 0.5px 0.5px white;
+}
+
+.title {
+  text-shadow: 0.25px 0.25px white;
 }
 
 .btn-primary:hover,
