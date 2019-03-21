@@ -372,6 +372,7 @@ header.masthead p {
 
 i {
   text-shadow: 0.5px 0.5px white;
+  padding-bottom: 0.2em;
 }
 
 .title {
