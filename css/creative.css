@@ -56,7 +56,6 @@ h6 {
 
 .bg-primary {
   background-image: url("../img/stars.gif") !important;
-  /* background-color: #007541 !important; */
   border-top: solid rgba(3, 3, 3, 0.375) 10px;
   border-bottom: solid rgba(3, 3, 3, 0.375) 10px;
 }
@@ -118,7 +117,6 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand {
-  /* font-weight: 500; */
   text-transform: uppercase;
   color: #007541;
   font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
@@ -203,6 +201,7 @@ header.masthead {
   background-image: url("../img/homepageNL.jpg");
   background-position: center center;
   background-size: cover;
+  /* height: 75vh; */
 }
 
 header.masthead hr {
