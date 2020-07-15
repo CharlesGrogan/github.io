@@ -53,6 +53,15 @@ h6 {
   font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-weight: 100;
 }
+#portfolio h2 {
+  text-align: center;
+    color: white;
+    background-image: url(../img/stars.gif);
+    line-height: 1.5;
+    margin-bottom: 0;
+    padding-bottom: .5rem;
+
+}
 
 .bg-primary {
   background-image: url("../img/stars.gif") !important;
