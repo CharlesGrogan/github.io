@@ -53,6 +53,7 @@ h5,
 h6 {
   font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-weight: 100;
+  padding: .5rem;
 }
 
 
@@ -64,11 +65,12 @@ h6 {
   line-height: 1.5;
   margin-bottom: 0;
   padding-bottom: .5rem;
-
+  font-size: 1.5rem !important;
 }
 
 #intro-box {
   margin-bottom: 2rem;
+  padding: 1rem;
 }
 
 .bg-primary {
@@ -261,7 +263,7 @@ header.masthead hr {
 }
 
 header.masthead h1 {
-  font-size: 2rem;
+  font-size: 2.3rem;
 }
 
 header.masthead p {
